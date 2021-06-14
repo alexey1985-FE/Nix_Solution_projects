@@ -1,0 +1,43 @@
+.inputs {
+	max-width: 200px;
+	margin: 30px auto;
+	position: relative;
+}
+.min {
+}
+.max {
+}
+.count {
+}
+.out {
+	font-size: 55px;
+	text-align: center;
+	word-spacing: 50px;
+}
+
+input {
+	display: block;
+	margin: 0px 0px 40px 0px;
+}
+button {
+	max-width: 100px;
+	margin: 0 auto 0 890px;
+	display: flex;
+	min-height: 43px;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 24px;
+	color: #121111;
+	font-weight: 700;
+	background: #9cc930;
+	cursor: pointer;
+	border-radius: 10px	;
+}
+.left {
+	position: absolute;
+	left: -62px;
+	margin-top: -3px;
+}
+.quantity {
+	left: -90px;
+}

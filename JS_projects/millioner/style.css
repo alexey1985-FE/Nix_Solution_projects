@@ -1,0 +1,200 @@
+body {
+	background: url('http://android-tornado.ru/uploads/posts/2012-12/1356099115_kto-hochet-stat-millionerom.jpg') 0 0 /
+		cover no-repeat;
+}
+td {
+	border: 1px solid black;
+	font-size: 25px;
+	background: #fff;
+}
+#timer_inp {
+	background: khaki;
+	width: 100px;
+	height: 60px;
+	border: 2px solid black;
+	border-radius: 10%;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	margin-left: 48%;
+	margin-bottom: 20px;
+}
+.round-style {
+	background: #fff;
+	border: 1px solid black;
+	border-radius: 50%;
+	width: 100px;
+	height: 80px;
+	text-align: center;
+	font-weight: 700;
+	cursor: pointer;
+}
+.round-style1 {
+	margin-left: 38%;
+}
+
+.round-style2 {
+	margin-left: 48%;
+	margin-top: -85px;
+	background: url('https://st3.depositphotos.com/4562487/13401/v/600/depositphotos_134016754-stock-illustration-phone-handset-icon.jpg')
+		center/72px 70px no-repeat;
+	background-color: white;
+}
+.round-style3 {
+	margin-left: 58%;
+	margin-top: -82px;
+}
+
+.round-style.round-style3 p {
+	margin-top: 26px;
+	font-size: 15px;
+}
+.round-style p {
+	margin-top: 26px;
+}
+.round-style1 p {
+	font-size: 22px;
+}
+.question {
+	margin-left: 32%;
+	margin-top: 7%;
+	font-size: 33px;
+	color: rgb(61 73 98);
+	max-width: 40%;
+	position: absolute;
+	text-align: center;
+	border-radius: 60px;
+	background: #fff;
+	padding: 20px;
+}
+.answer-label {
+	font-size: 30px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.answers__block {
+	padding-top: 160px;
+	margin: 15% 0px 0px 47%;
+}
+.btn {
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+	margin-left: 46%;
+	margin-top: 5%;
+	cursor: pointer;
+}
+table {
+	margin: -28% 0px 0px 80%;
+	position: absolute;
+}
+.tr {
+	color: red;
+	font-weight: bold;
+}
+
+.start {
+	background: rgba(0, 0, 0, 0.95);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: block;
+	font-weight: bold;
+}
+#user {
+	margin-left: 39%;
+	margin-top: 20%;
+	width: 300px;
+	height: 50px;
+	text-align: center;
+	font-size: 20px;
+}
+#start {
+	height: 56px;
+	text-align: center;
+	font-size: 20px;
+	cursor: pointer;
+}
+.end {
+	background: rgba(0, 0, 0, 0.95);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: none;
+	font-weight: bold;
+}
+.end h1 {
+	color: #f30;
+	text-align: center;
+	margin-top: 20%;
+}
+.end h3 {
+	color: #cc0;
+	text-align: center;
+	margin-top: 10%;
+}
+.reStart {
+	background: rgba(0, 0, 0, 0.95);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: none;
+	font-weight: bold;
+}
+.reStart h1 {
+	color: #cc0;
+	text-align: center;
+	margin-top: 20%;
+}
+#startGame {
+	margin-left: 47%;
+}
+
+.answer-input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	margin: 10px 0 0 7px;
+}
+.answer-input + label {
+	position: relative;
+	padding: 0 0 0 35px;
+	cursor: pointer;
+}
+.answer-input + label:before {
+	content: '';
+	position: absolute;
+	top: 6px;
+	left: 0;
+	width: 22px;
+	height: 22px;
+	border: 1px solid #cdd1da;
+	border-radius: 50%;
+	background: #fff;
+}
+.answer-input + label:after {
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: 4px;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: #9fd468;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.5);
+	opacity: 0;
+	transition: 0.2s;
+}
+.answer-input:checked + label:after {
+	opacity: 1;
+}
+.answer-input:focus + label:before {
+	box-shadow: 0 0 0 3px rgba(255, 255, 0, 0.7);
+}

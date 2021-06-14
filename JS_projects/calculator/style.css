@@ -1,0 +1,35 @@
+.calculator {
+	border: 1px solid #000;
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	transform: translate(-50%, -50%);
+	padding: 20px;
+	border-radius: 15px;
+	background: #cbb82d;
+}
+.out {
+}
+.final-result {
+	width: 164px;
+	padding: 5px;
+	font-size: 25px;
+	text-align: right;
+	margin-bottom: 10px;
+}
+.buttons {
+}
+
+td {
+	min-width: 20px;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid #000;
+	cursor: pointer;
+	border-radius: 25px;
+	background: #a4baa5;
+}
+
+td:hover {
+	background: #595959;
+}
